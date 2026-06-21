@@ -9,13 +9,10 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "deploy": "npm run build && npx gh-pages -d dist -b gh-pages",
     "astro": "astro"
   },
   "dependencies": {
     "astro": "^6.4.7"
   },
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "devDependencies": {}
 }
