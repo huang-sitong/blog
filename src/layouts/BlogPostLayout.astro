@@ -16,7 +16,7 @@ const { frontmatter } = Astro.props;
             <slot />
         </div>
     </article>
-    <a href="/blog/" class="back">← 返回文章列表</a>
+    <a href={`${import.meta.env.BASE_URL}`} class="back">← 返回首页</a>
 </Layout>
 
 <style>
